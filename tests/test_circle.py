@@ -24,7 +24,7 @@ def test_circle_repr():
     assert c1.__repr__() == '<Circle: 10>'
 
     c2 = Circle(50)
-    assert c1.__repr__() == '<Circle: 50>'
+    assert c2.__repr__() == '<Circle: 50>'
 
 
 @pytest.mark.skip('Not implemented yet.')
